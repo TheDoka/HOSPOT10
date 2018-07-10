@@ -55,7 +55,7 @@ NETSH WLAN start hostednetwork
 exit /b %errorlevel%
 
 :menu
-REM May add an CLS to clear checking message.
+cls
 echo.
 echo Welcome to HOSPOT10
 echo Assembled by @DOKA
